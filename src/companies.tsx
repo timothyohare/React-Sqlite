@@ -17,9 +17,9 @@ export const CompanyRegister = () => {
     const [loading, setLoading] = useState(true);
 
     // Fetch all companies on initial render
-  useEffect(() => {
-    fetchCompanies()
-  }, [])
+    useEffect(() => {
+        fetchCompanies()
+    }, [])
 
     // Fetch all companies 
     const fetchCompanies = async () => {
